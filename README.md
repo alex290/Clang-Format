@@ -1,6 +1,6 @@
 # Использование clang-format в QtCreator
 
-![](https://www.vikingsoftware.com/wp-content/uploads/2021/03/linux-code-2-e1620113254838.png)
+![](https://raw.githubusercontent.com/alex290/Clang-Format/master/pic/head.png)
 
 
 ### Использование clang-format в QtCreator для согласованного стиля кода в проекте C ++
@@ -13,18 +13,18 @@
 
 В QtCreator подключаемый модуль beautifier должен быть включен в «Справка -> О модулях…» 
 
-![](https://www.vikingsoftware.com/wp-content/uploads/2021/03/QtC_plugins.png)
+![](https://raw.githubusercontent.com/alex290/Clang-Format/master/pic/module.png)
 
 В настройках QtCreator плагин beautifier должен использовать clang-format. И при желании включите автоматическое форматирование при сохранении (настоятельно рекомендуется).
 
-![](https://www.vikingsoftware.com/wp-content/uploads/2021/03/QtC_beautifier.png)
+![](https://raw.githubusercontent.com/alex290/Clang-Format/master/pic/bf01.png)
 
 Затем настройте clang-format для использования файла конфигурации. И при необходимости укажите путь к исполняемому файлу формата clang. 
 
-![](https://www.vikingsoftware.com/wp-content/uploads/2021/03/QtC_clang-format.png)
+![](https://raw.githubusercontent.com/alex290/Clang-Format/master/pic/bf02.png)
 
 При желании вы можете отформатировать код вручную с помощью сочетания клавиш. Поэтому необходимо установить ярлык.
 
-![](https://www.vikingsoftware.com/wp-content/uploads/2021/03/QtC_shortcut.png)
+![](https://raw.githubusercontent.com/alex290/Clang-Format/master/pic/hotkey.png)
 
-В качестве файла настройки можно использовать готовый [файл](https://raw.githubusercontent.com/PickNikRobotics/roscpp_code_format/master/.clang-format "файл")
+В качестве файла настройки можно использовать готовый [файл](https://raw.githubusercontent.com/alex290/Clang-Format/master/.clang-format "файл")
